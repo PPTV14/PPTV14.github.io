@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(6, 191, 191);
+    color:white;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #333;
+}
+.skills-table td:nth-child(2) {
+    text-align: center;
+    font-weight: bold;
+}
+
+.expert { color: blue; background-color: white; } 
+.intermediate { color: yellow; background-color: white; } 
+.basic { color: green; background-color: white; } 
+.native { color: black; background-color: white; } /* Puedes cambiar si lo deseas */
+.advanced { color: black; background-color: white; } /* Puedes cambiar si lo deseas */
+
+/* Estilo para la imagen */
+#info img {
+    width: 200px; /* Ancho de la imagen reducido */
+    height: auto; /* Mantiene la relación de aspecto */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    margin-top: 10px; /* Espacio por encima de la imagen */
+}
+
