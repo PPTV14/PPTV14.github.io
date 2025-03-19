@@ -1,9 +1,44 @@
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     text-align: center;
 }
 
+/* Estilos para el navbar */
+#navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#navbar ul li {
+    display: inline;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#navbar ul li a:hover {
+    background-color: #575757;
+}
+
+/* Estilo general de tablas */
 table {
     width: 50%;
     margin: auto;
@@ -19,29 +54,203 @@ th, td {
 
 th {
     background-color: rgb(6, 191, 191);
-    color:white;
+    color: white;
 }
 
 .highlight {
     font-weight: bold;
     color: #333;
 }
+
 .skills-table td:nth-child(2) {
     text-align: center;
     font-weight: bold;
 }
 
-.expert { color: blue; background-color: white; } 
-.intermediate { color: yellow; background-color: white; } 
-.basic { color: green; background-color: white; } 
-.native { color: black; background-color: white; } /* Puedes cambiar si lo deseas */
-.advanced { color: black; background-color: white; } /* Puedes cambiar si lo deseas */
+.expert { color: blue; background-color: white; }
+.intermediate { color: rgb(255, 149, 0); background-color: white; }
+.basic { color: green; background-color: white; }
+.native { color: black; background-color: white; }
+.advanced { color: rgb(253, 1, 1); background-color: white; }
 
-/* Estilo para la imagen */
+/* Estilo para las imágenes */
 #info img {
-    width: 200px; /* Ancho de la imagen reducido */
-    height: auto; /* Mantiene la relación de aspecto */
-    border-radius: 50%; /* Hace que la imagen sea redonda */
-    margin-top: 10px; /* Espacio por encima de la imagen */
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 10px;
 }
 
+/* Estilo general para las cartas */
+.card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.card p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.card-button {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.card-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para la disposición en columnas */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-md-6 {
+    width: 48%;
+}
+
+/* Estilos para la carta de información personal */
+#personal-info-card {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    height: auto;
+}
+
+#personal-info-card p {
+    margin: 10px 0;
+}
+
+#Comentario_random {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+/* Estilos para la separación de las secciones */
+section {
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Diferenciar las secciones con bordes laterales */
+#info {
+    background-color: #e7f3fe; /* Fondo azul claro */
+    border-left: 5px solid #4CAF50; /* Borde verde */
+}
+
+#summary {
+    background-color: #f7f7f7; /* Fondo gris muy claro */
+    border-left: 5px solid #2196F3; /* Borde azul */
+}
+
+#skills {
+    background-color: #fffbe7; /* Fondo amarillo suave */
+    border-left: 5px solid #FF9800; /* Borde naranja */
+}
+
+#dynamic {
+    background-color: #f7f9f9; /* Fondo gris claro */
+    border-left: 5px solid #9C27B0; /* Borde morado */
+}
+
+/* Estilo para los encabezados dentro de cada sección */
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilo para la tabla de habilidades */
+table.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.skills-table th, .skills-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.skills-table th {
+    background-color: rgb(6, 191, 191);
+    color: white;
+}
+
+.skills-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.skills-table td {
+    font-size: 14px;
+}
+
+/* Estilos para las celdas de habilidades específicas */
+.skills-table td.expert {
+    color: blue;
+    background-color: white;
+}
+
+.skills-table td.intermediate {
+    color: rgb(255, 149, 0);
+    background-color: white;
+}
+
+.skills-table td.basic {
+    color: green;
+    background-color: white;
+}
+
+.skills-table td.native {
+    color: black;
+    background-color: white;
+}
+
+.skills-table td.advanced {
+    color: rgb(253, 1, 1);
+    background-color: white;
+}
+
+
+/* Estilo para el footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}

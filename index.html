@@ -7,21 +7,71 @@
     <link rel="stylesheet" href="Styles.css"> <!-- Enlace a un archivo CSS externo -->
 </head>
 <body>
+
+    <nav id="navbar">
+        <ul>
+            <li><a href="#header">Inicio</a></li>
+            <li><a href="#info">Información Personal</a></li>
+            <li><a href="#summary">Resumen</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#dynamic">Sección Interactiva</a></li>
+        </ul>
+    </nav>
+
     <header id="header">
         <h1 id="name" class="highlight">Pedro Pablo Tagle</h1>
         <p>Bienvenido a mi página personal</p>
     </header>
+
     <section id="info">
         <h2>Información Personal</h2>
-        
-        <img src="https://raw.githubusercontent.com/PPTV14/PPTV14.github.io/main/1fd5b199-0aab-4958-a325-46fd58237f47.jpg" alt="Foto de Pedro Pablo">
+        <section id="personal-info-card">
+            <div id="personal-info-card">
+                <!-- Imagen incluida dentro de la carta -->
+                <img src="https://raw.githubusercontent.com/PPTV14/PPTV14.github.io/main/1fd5b199-0aab-4958-a325-46fd58237f47.jpg" alt="Foto de Pedro Pablo" class="profile-img">
+                <p id="Comentario_random">Soy el que esta en la izquierda</p>
+                <p><strong>Nombre:</strong> Pedro Pablo Tagle</p>
+                <p><strong>Carrera:</strong> Ingeniería Civil en Obras Civiles</p>
+                <p><strong>Año de Ingreso:</strong> 2019</p>
+                <p><strong>Edad: 24 años </strong></p>
+                <p><strong>Cumpleaños: 14 de septiembre </strong></p>
+            </div>
+        </section>
     
-        <p><strong>Nombre:</strong> Pedro Pablo Tagle</p>
-        <p><strong>Carrera:</strong> Ingeniería Civil en Obras Civiles</p>
-        <p><strong>Año de Ingreso:</strong> 2019</p>
-        <p><strong>GitHub:</strong> <a id="github-link" href="https://github.com/PPTV14" target="_blank">Mi Perfil github</a></p>
-        <p><strong>Linkedin:</strong> <a id="Linkedin-link" href="https://www.linkedin.com/in/pedro-pablo-tagle-vargas-672873253/" target="_blank">Mi Perfil de Linkedin</a></p>
+        <div class="row">
+            <!-- Columna 1 -->
+            <div class="col-md-6">
+                <div class="card">
+                    <!-- Imagen de GitHub sobre el título -->
+                    <img src="https://github.com/PPTV14/PPTV14.github.io/blob/main/GitHub-Logo.jpg" alt="GitHub Logo" style="width: 50px; height: auto;">
+                    <div style="text-align: center; margin-bottom: 10px;">
+                        <a href="https://github.com/PPTV14" target="_blank">
+                            
+                        </a>
+                    </div>
+                    <h3>Link a GitHub</h3>
+                    <button class="card-button"><a href="https://github.com/PPTV14" target="_blank">Visitar GitHub</a></button>
+                </div>
+            </div>
+    
+            <!-- Columna 2 -->
+            <div class="col-md-6">
+                <div class="card">
+                    <!-- Imagen de LinkedIn sobre el título -->
+                    <img src="https://github.com/PPTV14/PPTV14.github.io/blob/main/linkedin-logo-linkedin-symbol-linkedin-icon-free-free-vector.jpg" alt="LinkedIn Logo" style="width: 50px; height: auto;">
+                    <div style="text-align: center; margin-bottom: 10px;">
+                        <a href="https://www.linkedin.com/in/pedro-pablo-tagle-vargas-672873253/" target="_blank">   
+                        </a>
+                    </div>
+                    <h3>Link a LinkedIn</h3>
+                    <button class="card-button"><a href="https://www.linkedin.com/in/pedro-pablo-tagle-vargas-672873253/" target="_blank">Visitar LinkedIn</a></button>
+                </div>
+            </div>
+        </div>
     </section>
+    
+    
+
     <section id="summary">
         <h2>Resumen Personal</h2>
         <p id="personal-summary">Soy estudiante de último semestre de la universidad, tengo 24 años. Mis hobbies son los siguientes: Jugar Videojuegos, armar legos y coleccionar cartas Pokémon.
