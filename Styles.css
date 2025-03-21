@@ -1,11 +1,9 @@
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     text-align: center;
 }
 
-/* Estilos para el navbar */
 #navbar {
     background-color: #333;
     overflow: hidden;
@@ -38,7 +36,6 @@ body {
     background-color: #575757;
 }
 
-/* Estilo general de tablas */
 table {
     width: 50%;
     margin: auto;
@@ -73,7 +70,6 @@ th {
 .native { color: black; background-color: white; }
 .advanced { color: rgb(253, 1, 1); background-color: white; }
 
-/* Estilo para las imágenes */
 #info img {
     width: 200px;
     height: auto;
@@ -81,7 +77,6 @@ th {
     margin-top: 10px;
 }
 
-/* Estilo general para las cartas */
 .card {
     background-color: #f9f9f9;
     padding: 20px;
@@ -122,7 +117,6 @@ th {
     background-color: #0056b3;
 }
 
-/* Estilo para la disposición en columnas */
 .row {
     display: flex;
     justify-content: space-between;
@@ -132,7 +126,6 @@ th {
     width: 48%;
 }
 
-/* Estilos para la carta de información personal */
 #personal-info-card {
     background-color: white;
     color: black;
@@ -156,7 +149,6 @@ th {
     font-weight: normal;
 }
 
-/* Estilos para la separación de las secciones */
 section {
     padding: 20px;
     margin-bottom: 30px;
@@ -165,28 +157,26 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Diferenciar las secciones con bordes laterales */
 #info {
-    background-color: #e7f3fe; /* Fondo azul claro */
-    border-left: 5px solid #4CAF50; /* Borde verde */
+    background-color: #e7f3fe; 
+    border-left: 5px solid #4CAF50; 
 }
 
 #summary {
-    background-color: #f7f7f7; /* Fondo gris muy claro */
-    border-left: 5px solid #2196F3; /* Borde azul */
+    background-color: #f7f7f7; 
+    border-left: 5px solid #2196F3; 
 }
 
 #skills {
-    background-color: #fffbe7; /* Fondo amarillo suave */
-    border-left: 5px solid #FF9800; /* Borde naranja */
+    background-color: #fffbe7; 
+    border-left: 5px solid #FF9800; 
 }
 
 #dynamic {
-    background-color: #f7f9f9; /* Fondo gris claro */
-    border-left: 5px solid #9C27B0; /* Borde morado */
+    background-color: #f7f9f9; 
+    border-left: 5px solid #9C27B0; 
 }
 
-/* Estilo para los encabezados dentro de cada sección */
 h2 {
     border-bottom: 2px solid #ddd;
     padding-bottom: 10px;
@@ -194,7 +184,6 @@ h2 {
     color: #333;
 }
 
-/* Estilo para la tabla de habilidades */
 table.skills-table {
     width: 100%;
     border-collapse: collapse;
@@ -220,7 +209,6 @@ table.skills-table {
     font-size: 14px;
 }
 
-/* Estilos para las celdas de habilidades específicas */
 .skills-table td.expert {
     color: blue;
     background-color: white;
@@ -247,7 +235,6 @@ table.skills-table {
 }
 
 
-/* Estilo para el footer */
 footer {
     text-align: center;
     padding: 10px;

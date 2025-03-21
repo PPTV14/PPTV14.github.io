@@ -15,6 +15,7 @@
             <li><a href="#summary">Resumen</a></li>
             <li><a href="#skills">Habilidades</a></li>
             <li><a href="#dynamic">Sección Interactiva</a></li>
+            <li><a href="#News">Sección Noticias</a></li>
         </ul>
     </nav>
 
@@ -27,7 +28,6 @@
         <h2>Información Personal</h2>
         <section id="personal-info-card">
             <div id="personal-info-card">
-                <!-- Imagen incluida dentro de la carta -->
                 <img src="https://raw.githubusercontent.com/PPTV14/PPTV14.github.io/main/1fd5b199-0aab-4958-a325-46fd58237f47.jpg" alt="Foto de Pedro Pablo" class="profile-img">
                 <p id="Comentario_random">Soy el que esta en la izquierda</p>
                 <p><strong>Nombre:</strong> Pedro Pablo Tagle</p>
@@ -42,26 +42,21 @@
             <!-- Columna 1 -->
             <div class="col-md-6">
                 <div class="card">
-                    <!-- Imagen de GitHub sobre el título -->
-                    <img src="https://github.com/PPTV14/PPTV14.github.io/main/GitHub-Logo.jpg" alt="GitHub Logo" style="width: 50px; height: auto;">
+                    <img src="file:///C:/Users/pedro/Pictures/Camera%20Roll/GitHub-Logo.jpg" alt="GitHub Logo" style="width: 50px; height: auto;">
                     <div style="text-align: center; margin-bottom: 10px;">
-                        <a href="https://github.com/PPTV14" target="_blank">
-                            
-                        </a>
+                        <a href="https://github.com/PPTV14" target="_blank"></a>
                     </div>
                     <h3>Link a GitHub</h3>
                     <button class="card-button"><a href="https://github.com/PPTV14" target="_blank">Visitar GitHub</a></button>
                 </div>
             </div>
-    
+        
             <!-- Columna 2 -->
             <div class="col-md-6">
                 <div class="card">
-                    <!-- Imagen de LinkedIn sobre el título -->
-                    <img src="https://github.com/PPTV14/PPTV14.github.io/main/linkedin-logo-linkedin-symbol-linkedin-icon-free-free-vector.jpg" alt="LinkedIn Logo" style="width: 50px; height: auto;">
+                    <img src="file:///C:/Users/pedro/Pictures/Camera%20Roll/linkedin-logo-linkedin-symbol-linkedin-icon-free-free-vector.jpg" alt="LinkedIn Logo" style="width: 50px; height: auto;">
                     <div style="text-align: center; margin-bottom: 10px;">
-                        <a href="https://www.linkedin.com/in/pedro-pablo-tagle-vargas-672873253/" target="_blank">   
-                        </a>
+                        <a href="https://www.linkedin.com/in/pedro-pablo-tagle-vargas-672873253/" target="_blank"></a>
                     </div>
                     <h3>Link a LinkedIn</h3>
                     <button class="card-button"><a href="https://www.linkedin.com/in/pedro-pablo-tagle-vargas-672873253/" target="_blank">Visitar LinkedIn</a></button>
@@ -112,8 +107,16 @@
             document.getElementById("outputText").innerText = userInput;
         });
     </script>
+
+    <section id="News">
+        <h2>Últimas Noticias</h2>
+        <button id="newsButton">Pedir Noticias</button>
+        <ul id="newsList"></ul>
+    </section>
+    
     <footer id="footer">
         <p>&copy; 2025 - Página PPT</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
